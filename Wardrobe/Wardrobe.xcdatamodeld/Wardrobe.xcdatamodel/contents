@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DBLowerTable" representedClassName=".DBLowerTable" syncable="YES">
+        <attribute name="lower_favouite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lower_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lowerImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="DBUpperTable" representedClassName="DBUpperTable" syncable="YES">
+        <attribute name="upper_favouite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="upper_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="upper_upperImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="Entity1" representedClassName="Entity1" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Entity" positionX="-36" positionY="36" width="128" height="45"/>
+        <element name="Entity1" positionX="-18" positionY="45" width="128" height="45"/>
+        <element name="DBLowerTable" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="DBUpperTable" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
 </model>

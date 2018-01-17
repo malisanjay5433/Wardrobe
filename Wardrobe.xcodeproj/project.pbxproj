@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		9B2C3619200DBA320073014E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3618200DBA320073014E /* AppDelegate.swift */; };
-		9B2C361B200DBA320073014E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C361A200DBA320073014E /* ViewController.swift */; };
 		9B2C361E200DBA320073014E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C361C200DBA320073014E /* Main.storyboard */; };
 		9B2C3621200DBA320073014E /* Wardrobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C361F200DBA320073014E /* Wardrobe.xcdatamodeld */; };
 		9B2C3623200DBA320073014E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C3622200DBA320073014E /* Assets.xcassets */; };
 		9B2C3626200DBA320073014E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C3624200DBA320073014E /* LaunchScreen.storyboard */; };
+		9B2C362E200DF87D0073014E /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C362D200DF87D0073014E /* RoundedView.swift */; };
+		9B2C3630200DF8920073014E /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C362F200DF8920073014E /* RoundedImageView.swift */; };
+		9B2C3632200EFB020073014E /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3631200EFB020073014E /* FirstView.swift */; };
+		9B2C3657200F074D0073014E /* WardrobeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3656200F074D0073014E /* WardrobeViewController.swift */; };
+		9B2C3659200F09D00073014E /* wardrobeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3658200F09D00073014E /* wardrobeCell.swift */; };
+		9B2C365B200F4A3B0073014E /* wardrobePantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C365A200F4A3B0073014E /* wardrobePantCell.swift */; };
+		9B2C3676200F87F80073014E /* DBUpperTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3674200F87F80073014E /* DBUpperTable+CoreDataClass.swift */; };
+		9B2C3677200F87F80073014E /* DBUpperTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3675200F87F80073014E /* DBUpperTable+CoreDataProperties.swift */; };
+		9B2C367A200F88340073014E /* DBLowerTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3678200F88340073014E /* DBLowerTable+CoreDataClass.swift */; };
+		9B2C367B200F88340073014E /* DBLowerTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C3679200F88340073014E /* DBLowerTable+CoreDataProperties.swift */; };
+		9B2C367D200F89810073014E /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C367C200F89810073014E /* PersistanceService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B2C3615200DBA320073014E /* Wardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2C3618200DBA320073014E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B2C361A200DBA320073014E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B2C361D200DBA320073014E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2C3620200DBA320073014E /* Wardrobe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wardrobe.xcdatamodel; sourceTree = "<group>"; };
 		9B2C3622200DBA320073014E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2C3625200DBA320073014E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2C3627200DBA320073014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2C362D200DF87D0073014E /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		9B2C362F200DF8920073014E /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		9B2C3631200EFB020073014E /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		9B2C3656200F074D0073014E /* WardrobeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeViewController.swift; sourceTree = "<group>"; };
+		9B2C3658200F09D00073014E /* wardrobeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobeCell.swift; sourceTree = "<group>"; };
+		9B2C365A200F4A3B0073014E /* wardrobePantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobePantCell.swift; sourceTree = "<group>"; };
+		9B2C3674200F87F80073014E /* DBUpperTable+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBUpperTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9B2C3675200F87F80073014E /* DBUpperTable+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBUpperTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B2C3678200F88340073014E /* DBLowerTable+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBLowerTable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9B2C3679200F88340073014E /* DBLowerTable+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBLowerTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9B2C367C200F89810073014E /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,10 @@
 		9B2C360C200DBA320073014E = {
 			isa = PBXGroup;
 			children = (
+				9B2C3678200F88340073014E /* DBLowerTable+CoreDataClass.swift */,
+				9B2C3679200F88340073014E /* DBLowerTable+CoreDataProperties.swift */,
+				9B2C3674200F87F80073014E /* DBUpperTable+CoreDataClass.swift */,
+				9B2C3675200F87F80073014E /* DBUpperTable+CoreDataProperties.swift */,
 				9B2C3617200DBA320073014E /* Wardrobe */,
 				9B2C3616200DBA320073014E /* Products */,
 			);
@@ -57,12 +81,18 @@
 			isa = PBXGroup;
 			children = (
 				9B2C3618200DBA320073014E /* AppDelegate.swift */,
-				9B2C361A200DBA320073014E /* ViewController.swift */,
 				9B2C361C200DBA320073014E /* Main.storyboard */,
 				9B2C3622200DBA320073014E /* Assets.xcassets */,
 				9B2C3624200DBA320073014E /* LaunchScreen.storyboard */,
 				9B2C3627200DBA320073014E /* Info.plist */,
 				9B2C361F200DBA320073014E /* Wardrobe.xcdatamodeld */,
+				9B2C362D200DF87D0073014E /* RoundedView.swift */,
+				9B2C362F200DF8920073014E /* RoundedImageView.swift */,
+				9B2C3631200EFB020073014E /* FirstView.swift */,
+				9B2C3656200F074D0073014E /* WardrobeViewController.swift */,
+				9B2C3658200F09D00073014E /* wardrobeCell.swift */,
+				9B2C365A200F4A3B0073014E /* wardrobePantCell.swift */,
+				9B2C367C200F89810073014E /* PersistanceService.swift */,
 			);
 			path = Wardrobe;
 			sourceTree = "<group>";
@@ -139,8 +169,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2C367A200F88340073014E /* DBLowerTable+CoreDataClass.swift in Sources */,
+				9B2C3659200F09D00073014E /* wardrobeCell.swift in Sources */,
+				9B2C3677200F87F80073014E /* DBUpperTable+CoreDataProperties.swift in Sources */,
+				9B2C362E200DF87D0073014E /* RoundedView.swift in Sources */,
+				9B2C3676200F87F80073014E /* DBUpperTable+CoreDataClass.swift in Sources */,
+				9B2C365B200F4A3B0073014E /* wardrobePantCell.swift in Sources */,
+				9B2C367B200F88340073014E /* DBLowerTable+CoreDataProperties.swift in Sources */,
+				9B2C3632200EFB020073014E /* FirstView.swift in Sources */,
+				9B2C3657200F074D0073014E /* WardrobeViewController.swift in Sources */,
+				9B2C3630200DF8920073014E /* RoundedImageView.swift in Sources */,
+				9B2C367D200F89810073014E /* PersistanceService.swift in Sources */,
 				9B2C3621200DBA320073014E /* Wardrobe.xcdatamodeld in Sources */,
-				9B2C361B200DBA320073014E /* ViewController.swift in Sources */,
 				9B2C3619200DBA320073014E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
